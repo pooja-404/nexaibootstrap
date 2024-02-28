@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+
+    /* font-size */
+    --fs-s: 14px;
+    --fs-sm: 17px;
+    --fs-md: 16px;
+    --fs-lg: 24px;
+    --fs-xl: 32px;
+    --fs-xxl: 30px;
+    --fs-2xl: 32px;
+    /* color */
+    --green: #02cdcf;
+    --black: #0b0a0a;
+    --gray: #b7b7b9;
+    --off-white: #FCFCFC;
+    --darkblack: #040404;
+    --mid-white: #FCFCFC;
+    --mid-gray: #b3b7bb;
+    /* font-family  */
+
+    --ff-Poppins: 'Poppins', Sans-serif;
+}
+
+@font-face {
+    font-family: 'recharge';
+    src: url(../font/recharge\ bd.otf);
+}
+
+.font-reacharge {
+    font-family: 'Recharge', sans-serif;
+}
+
+.font-poppins {
+    font-family: 'Poppins', Sans-serif;
+}
+
+/* font-size */
+.fs-s {
+    font-size: var(--fs-s);
+}
+
+.fs-sm {
+    font-size: var(--fs-sm);
+}
+
+.fs-md {
+    font-size: var(--fs-md);
+}
+
+.fs-lg {
+    font-size: var(--fs-md);
+}
+
+.fs-xl {
+    font-size: var(--fs-xl);
+}
+
+.fs-xxl {
+    font-size: var(--fs-xxl);
+}
+
+.fs-2xl {
+    font-size: var(--fs-2xl);
+}
+
+/* color */
+.text-green {
+    color: var(--green);
+}
+
+.bg-green {
+    background-color: var(--green);
+}
+
+.black {
+    color: var(--black);
+}
+
+.text-gray {
+    color: var(--gray);
+}
+
+.mid-white {
+    background-color: var(--mid-white);
+}
+
+.mid-gray {
+    color: var(--mid-gray);
+}
+
+
+.bg-darkblack {
+    background-color: var(--darkblack);
+}
+
+.off-white {
+    color: var(--off-white);
+}
+
+@media (min-width:992px) {
+    /* line-height */
+
+    .lh-21 {
+        line-height: 21px;
+    }
+
+    .lh-75 {
+        line-height: 75px;
+    }
+
+    .lh-25 {
+        line-height: 25px;
+    }
+
+    .lh-24 {
+        line-height: 24px;
+    }
+
+    .lh-32 {
+        line-height: 32px;
+    }
+
+    .lh-51 {
+        line-height: 51px;
+    }
+
+    .lh-38 {
+        line-height: 38px;
+    }
+
+    .lh-31 {
+        line-height: 31px;
+    }
+
+    .lh-52 {
+        line-height: 52px;
+    }
+
+    .lh-19 {
+        line-height: 19px;
+    }
+
+    .w-lg-90 {
+        width: 90% !important;
+    }
+
+    .mt-lg-44 {
+        margin-top: 44% !important;
+    }
+
+    .ml-lg-192 {
+        margin-left: 192px;
+    }
+
+    .ml-lg-90 {
+        margin-left: 90px;
+    }
+
+    /* max-width */
+    .max-w-577 {
+        max-width: 577px;
+    }
+
+
+    .max-w-397 {
+        max-width: 397px;
+    }
+
+    .max-w-316 {
+        max-width: 316px;
+    }
+
+    .max-w-356 {
+        max-width: 356px;
+    }
+
+    .max-w-997 {
+        max-width: 997px;
+    }
+
+    .max-w-684 {
+        max-width: 684px;
+    }
+
+    .max-w-536 {
+        max-width: 536px;
+    }
+
+    .max-w-912 {
+        max-width: 912px;
+    }
+
+    .max-w-286 {
+        max-width: 286px;
+    }
+
+    .unique-box {
+        padding-left: 60px !important;
+        padding-right: 60px !important;
+    }
+
+    .py-lg-10 {
+        padding-top: 10rem !important;
+        padding-bottom: 10rem !important;
+    }
+
+    .footer-bg {
+        background-size: 100% 100%;
+    }
+
+    .nexai-bg {
+        background-size: cover;
+    }
+
+    .translatye-y-5 {
+        transform: translateY(26%);
+    }
+
+    /* slider */
+    .slick-list {
+        overflow: visible !important;
+        position: relative !important;
+        z-index: 1;
+    }
+
+    .Blockchains .slick-list::after {
+        content: ' ';
+        position: absolute !important;
+        top: -34%;
+        bottom: -40%;
+        width: 60500px !important;
+        /* height: 100%; */
+        right: 88.6%;
+        z-index: 1;
+        background-color: var(--darkblack);
+    }
+
+    .slick-slide>div {
+        display: flex;
+        width: 100%;
+    }
+
+    .slick-track {
+        display: flex !important;
+    }
+
+    .slick-slide {
+        height: inherit !important;
+        display: flex !important;
+    }
+
+}
