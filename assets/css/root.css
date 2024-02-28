@@ -125,6 +125,9 @@
     .lh-51 {
         line-height: 51px;
     }
+    .lh-50{
+        line-height: 50px;
+    }
 
     .lh-38 {
         line-height: 38px;
@@ -151,7 +154,7 @@
     }
 
     .ml-lg-192 {
-        margin-left: 192px;
+        margin-left: 192px ;
     }
 
     .ml-lg-90 {
@@ -209,11 +212,6 @@
     .footer-bg {
         background-size: 100% 100%;
     }
-
-    .nexai-bg {
-        background-size: cover;
-    }
-
     .translatye-y-5 {
         transform: translateY(26%);
     }
@@ -223,6 +221,9 @@
         overflow: visible !important;
         position: relative !important;
         z-index: 1;
+    }
+    .ps-lg-10{
+        padding-left: 10rem !important;
     }
 
     .Blockchains .slick-list::after {
