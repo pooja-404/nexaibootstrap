@@ -9,20 +9,12 @@
     scroll-behavior: smooth !important;
 }
 
-.my-container {
-    max-width: 1140px;
-    padding-left: 12px;
-    padding-right: 12px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.custom-container {
+/* .custom-container {
     max-width: 1280px;
     padding-left: 12px;
     padding-right: 12px;
     margin-right: 15px !important;
-}
+} */
 
 .header-bg {
     background-image: url(../images/aibg.webp);
@@ -423,7 +415,7 @@
 
 @media (min-width: 1200px) {
     .translate-x-xl-32 {
-        transform: translateX(-4rem);
+        transform: translateX(2rem);
     }
 
     .header-bg {
