@@ -9,12 +9,12 @@
     scroll-behavior: smooth !important;
 }
 
-/* .custom-container {
+.custom-container {
     max-width: 1280px;
     padding-left: 12px;
     padding-right: 12px;
     margin-right: 15px !important;
-} */
+}
 
 .header-bg {
     background-image: url(../images/aibg.webp);
