@@ -289,7 +289,7 @@
 }
 
 .overflow-x-clip {
-    overflow-x: clip;
+    overflow-x: clip !important;
 }
 
 .max-w-254 {
@@ -331,6 +331,9 @@
     width: 100px;
     height: 100px;
 }
+.overflow-hidden{
+    overflow: hidden !important;
+}
 
 
 @media (max-width: 992px) {
@@ -347,7 +350,7 @@
     }
 
     .overflow_hidden {
-        overflow: hidden;
+        overflow: hidden !important;
     }
 
     .line1,
