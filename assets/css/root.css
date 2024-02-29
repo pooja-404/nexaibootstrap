@@ -16,7 +16,6 @@
     --gray: #b7b7b9;
     --off-white: #FCFCFC;
     --darkblack: #040404;
-    --mid-white: #FCFCFC;
     --mid-gray: #b3b7bb;
     /* font-family  */
 
@@ -74,16 +73,13 @@
     background-color: var(--green);
 }
 
+
 .black {
     color: var(--black);
 }
 
 .text-gray {
     color: var(--gray);
-}
-
-.mid-white {
-    background-color: var(--mid-white);
 }
 
 .mid-gray {
@@ -97,6 +93,10 @@
 
 .off-white {
     color: var(--off-white);
+}
+
+.bg-offwhite {
+    background-color: var(--off-white);
 }
 
 @media (min-width:992px) {
