@@ -242,6 +242,7 @@
     z-index: 2;
     border: 2px solid transparent;
     box-shadow: 0px 0px 25px 0px var(--green);
+    display: none;
 }
 
 .nexai-ellipse {
@@ -375,6 +376,7 @@
     .sm-h-590 {
         height: 590px;
     }
+
     :root {
         /* font-size */
         --fs-s: 16px;
@@ -383,7 +385,7 @@
         --fs-lg: 24px;
         --fs-xl: 32px;
         --fs-xxl: 40px;
-        
+
     }
 }
 
