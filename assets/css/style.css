@@ -9,13 +9,6 @@
     scroll-behavior: smooth !important;
 }
 
-.custom-container {
-    max-width: 1280px;
-    padding-left: 12px;
-    padding-right: 12px;
-    margin-right: 15px !important;
-}
-
 .header-bg {
     background-image: url(../images/aibg.webp);
     background-position: center;
@@ -78,6 +71,7 @@
     color: var(--green);
 
 }
+
 
 .layer {
     position: absolute;
@@ -381,9 +375,7 @@
     .sm-h-590 {
         height: 590px;
     }
-
     :root {
-
         /* font-size */
         --fs-s: 16px;
         --fs-sm: 18px;
@@ -391,21 +383,14 @@
         --fs-lg: 24px;
         --fs-xl: 32px;
         --fs-xxl: 40px;
-        --fs-2xl: 48px;
+        
     }
 }
 
 @media (min-width:768px) {
     :root {
-
         /* font-size */
-        --fs-s: 16px;
-        --fs-sm: 18px;
-        --fs-md: 20px;
-        --fs-lg: 24px;
-        --fs-xl: 32px;
-        --fs-xxl: 40px;
-        --fs-2xl: 60px;
+        --fs-2xl: 45px;
     }
 
     .header-bg {
